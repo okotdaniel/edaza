@@ -9,7 +9,7 @@ function App(){
       <div className="uk-container">
         <div className="uk-position-z-index" data-uk-navbar>
           <div className="uk-navbar-left">
-            <a className="uk-navbar-item uk-logo" href="index.html">Kocina</a>
+            <a className="uk-navbar-item uk-logo" href="index.html">Edaza</a>
             <ul className="uk-navbar-nav uk-visible@m uk-margin-large-left">
               <li className="uk-active"><a href="index.html"   target="_blank" rel="noopener noreferrer">Home</a></li>
               <li ><a href="recipe.html">Recipe</a></li>
@@ -542,35 +542,13 @@ function App(){
       </div>
     </div>
     
-    <div className="uk-container">
-      <div className="uk-background-primary uk-border-rounded-large uk-light">
-        <div className="uk-width-3-4@m uk-margin-auto uk-padding-large">
-          <div className="uk-text-center">
-            <h2 className="uk-h2 uk-margin-remove">Be the first to know about the latest deals, receive new trending recipes &amp; more!</h2>
-          </div>
-          <div className="uk-margin-medium-top">
-            <div data-uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
-              <form>
-                <div className="uk-grid-small" data-uk-grid>
-                  <div className="uk-width-1-1 uk-width-expand@s uk-first-column">
-                    <input type="email" placeholder="Email Address" className="uk-input uk-form-large uk-width-1-1 uk-border-pill" />
-                  </div>
-                  <div className="uk-width-1-1 uk-width-auto@s">
-                    <input type="submit" value="Subscribe" className="uk-button uk-button-large uk-button-warning" />
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     
     <footer className="uk-section uk-section-default">
       <div className="uk-container uk-text-secondary uk-text-500">
         <div className="uk-child-width-1-2@s" data-uk-grid>
           <div>
-            <a href="#" className="uk-logo">Kocina</a>
+            <a href="#" className="uk-logo">Edaza</a>
           </div>
           <div className="uk-flex uk-flex-middle uk-flex-right@s">
             <div data-uk-grid className="uk-child-width-auto uk-grid-small">
