@@ -19,7 +19,7 @@ function App(){
           </div>
           <div className="uk-navbar-right">
             <div>
-              <a className="uk-navbar-toggle" data-uk-search-icon href="/"></a>
+              <a className="uk-navbar-toggle" data-uk-search-icon href="/">search</a>
               <div className="uk-drop uk-background-default" data-uk-drop="mode: click; pos: left-center; offset: 0">
                 <form className="uk-search uk-search-navbar uk-width-1-1">
                   <input className="uk-search-input uk-text-demi-bold" type="search" placeholder="Search..." autofocus />
@@ -140,14 +140,14 @@ function App(){
             </div>      
             <div className="uk-child-width-1-2 uk-child-width-1-3@s" data-uk-grid>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/-YHSwy6uqvk/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
@@ -161,22 +161,23 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by John Keller</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+              </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/jUPOXXRNdcA/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
-                    <h3 className="uk-card-title uk-text-500 uk-margin-small-bottom uk-margin-top">Brown Sugar Meatloaf</h3>
+                    <h3 className="uk-card-title uk-text-500 uk-margin-small-bottom uk-margin-top"> <a href="recipe.html" className="">Brown Sugar Meatloaf</a></h3>
                     <div className="uk-text-xsmall uk-text-muted" data-uk-grid>
                       <div className="uk-width-auto uk-flex uk-flex-middle">
                         <span className="uk-rating-filled" data-uk-icon="icon: star; ratio: 0.7"></span>
@@ -186,18 +187,20 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Danial Caleem</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                 
                 </div>
+                </a>
               </div>
+              
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/nTZOILVZuOg/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
@@ -211,18 +214,19 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Janet Small</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/Cf_Df-Zl8iw/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+
                     </div>
                   </div>
                   <div>
@@ -236,18 +240,19 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Aleaxa Dorchest</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/aGjP08-HbYY/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
@@ -261,18 +266,19 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Ben Kaller</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/SxTlB4fde9Q/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
@@ -286,18 +292,19 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Sam Brown</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/MNtag_eXMKw/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                     
                     </div>
                   </div>
                   <div>
@@ -311,18 +318,19 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Theresa Samuel</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               <div>
+              <a href="recipe.html">
                 <div
                   className="uk-card">
                   <div className="uk-card-media-top uk-inline uk-light">
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/Yr4n8O_3UPc/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                        data-uk-icon="heart"></a>
+                      
                     </div>
                   </div>
                   <div>
@@ -336,19 +344,20 @@ function App(){
                       <div className="uk-width-expand uk-text-right">by Adam Brown</div>
                     </div>
                   </div>
-                  <a href="recipe.html" className="uk-position-cover"></a>
+                  
                 </div>
+                </a>
               </div>
               
               <div>
+              <a href="recipe.html">
                           <div
                             className="uk-card">
                             <div className="uk-card-media-top uk-inline uk-light">
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/jivmv9hE6bM/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                                  data-uk-icon="heart"></a>
+                               
                               </div>
                             </div>
                             <div>
@@ -362,18 +371,19 @@ function App(){
                                 <div className="uk-width-expand uk-text-right">by Thomas Haller</div>
                               </div>
                             </div>
-                            <a href="recipe.html" className="uk-position-cover"></a>
+                            
                           </div>
+                          </a>
                         </div>
                         <div>
+                        <a href="recipe.html">
                           <div
                             className="uk-card">
                             <div className="uk-card-media-top uk-inline uk-light">
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/tzl1UCXg5Es/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                                  data-uk-icon="heart"></a>
+                                
                               </div>
                             </div>
                             <div>
@@ -387,18 +397,19 @@ function App(){
                                 <div className="uk-width-expand uk-text-right">by Thomas Haller</div>
                               </div>
                             </div>
-                            <a href="recipe.html" className="uk-position-cover"></a>
+                            
                           </div>
+                          </a>
                         </div>
                         <div>
+                        <a href="recipe.html">
                           <div
                             className="uk-card">
                             <div className="uk-card-media-top uk-inline uk-light">
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/6G98hiCJETA/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                                  data-uk-icon="heart"></a>
+                                
                               </div>
                             </div>
                             <div>
@@ -412,18 +423,19 @@ function App(){
                                 <div className="uk-width-expand uk-text-right">by Thomas Haller</div>
                               </div>
                             </div>
-                            <a href="recipe.html" className="uk-position-cover"></a>
+                            
                           </div>
+                          </a>
                         </div>
                         <div>
+                        <a href="recipe.html">
                           <div
                             className="uk-card">
                             <div className="uk-card-media-top uk-inline uk-light">
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/_0JpjeqtSyg/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
-                                  data-uk-icon="heart"></a>
+                                
                               </div>
                             </div>
                             <div>
@@ -437,8 +449,9 @@ function App(){
                                 <div className="uk-width-expand uk-text-right">by Thomas Haller</div>
                               </div>
                             </div>
-                            <a href="recipe.html" className="uk-position-cover"></a>
+                            
                           </div>
+                          </a>
                         </div>
             </div>
             <div className="uk-margin-large-top uk-text-small">
@@ -460,7 +473,7 @@ function App(){
       <div className="uk-container">
         <div data-uk-grid>
           <div className="uk-width-expand">
-            <h2>Videos</h2>          
+            <h2>Trending Today</h2>          
           </div>
           <div className="uk-width-1-3 uk-text-right uk-light">
             <select className="uk-select uk-select-light uk-width-auto uk-border-pill uk-select-primary">
@@ -485,7 +498,7 @@ function App(){
                   <div className="uk-text-xsmall">by Thomas Haller</div>
                 </div>
               </div>
-              <a href="recipe.html" className="uk-position-cover"></a>
+              
             </div>
           </div>
           <div>
@@ -502,7 +515,7 @@ function App(){
                   <div className="uk-text-xsmall">by Thomas Haller</div>
                 </div>
               </div>
-              <a href="recipe.html" className="uk-position-cover"></a>
+              
             </div>
           </div>
           <div>
@@ -519,7 +532,7 @@ function App(){
                   <div className="uk-text-xsmall">by Thomas Haller</div>
                 </div>
               </div>
-              <a href="recipe.html" className="uk-position-cover"></a>
+              
             </div>
           </div>
           <div>
@@ -535,7 +548,7 @@ function App(){
                   <div className="uk-text-xsmall">by Thomas Haller</div>
                 </div>
               </div>
-              <a href="recipe.html" className="uk-position-cover"></a>
+              
             </div>
           </div>      
         </div>
@@ -551,17 +564,7 @@ function App(){
             <a href="/" className="uk-logo">Edaza</a>
           </div>
           <div className="uk-flex uk-flex-middle uk-flex-right@s">
-            <div data-uk-grid className="uk-child-width-auto uk-grid-small">
-              <div>
-                <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: 0.8" className="uk-icon-button facebook" target="_blank"  rel="noreferrer"></a>
-              </div>
-              <div>
-                <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: 0.8" className="uk-icon-button instagram" target="_blank"  rel="noreferrer"></a>
-              </div>
-              <div>
-                <a href="mailto:info@blacompany.com" data-uk-icon="icon: twitter; ratio: 0.8" className="uk-icon-button twitter" target="_blank"  rel="noreferrer"></a>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div className="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
@@ -617,18 +620,7 @@ function App(){
         </div>
         <div className="uk-margin-medium-top uk-text-center">
           <div data-uk-grid className="uk-child-width-auto uk-grid-small uk-flex-center">
-            <div>
-              <a href="https://twitter.com/" data-uk-icon="icon: twitter" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
-            </div>
-            <div>
-              <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
-            </div>
-            <div>
-              <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
-            </div>
+            
           </div>
         </div>
       </div>
