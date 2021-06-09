@@ -11,7 +11,7 @@ function App(){
           <div className="uk-navbar-left">
             <a className="uk-navbar-item uk-logo" href="index.html">Edaza</a>
             <ul className="uk-navbar-nav uk-visible@m uk-margin-large-left">
-              <li className="uk-active"><a href="index.html"   target="_blank"  rel="noreferrer" rel="noopener noreferrer">Home</a></li>
+              <li className="uk-active"><a href="/"   target="_blank" rel="noopener noreferrer">Home</a></li>
               <li ><a href="recipe.html">Recipe</a></li>
               <li ><a href="search.html">Search</a></li>
               <li ><a href="contact.html">Contact</a></li>
