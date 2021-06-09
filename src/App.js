@@ -11,7 +11,7 @@ function App(){
           <div className="uk-navbar-left">
             <a className="uk-navbar-item uk-logo" href="index.html">Edaza</a>
             <ul className="uk-navbar-nav uk-visible@m uk-margin-large-left">
-              <li className="uk-active"><a href="index.html"   target="_blank" rel="noopener noreferrer">Home</a></li>
+              <li className="uk-active"><a href="index.html"   target="_blank"  rel="noreferrer" rel="noopener noreferrer">Home</a></li>
               <li ><a href="recipe.html">Recipe</a></li>
               <li ><a href="search.html">Search</a></li>
               <li ><a href="contact.html">Contact</a></li>
@@ -19,7 +19,7 @@ function App(){
           </div>
           <div className="uk-navbar-right">
             <div>
-              <a className="uk-navbar-toggle" data-uk-search-icon href="#"></a>
+              <a className="uk-navbar-toggle" data-uk-search-icon href="/"></a>
               <div className="uk-drop uk-background-default" data-uk-drop="mode: click; pos: left-center; offset: 0">
                 <form className="uk-search uk-search-navbar uk-width-1-1">
                   <input className="uk-search-input uk-text-demi-bold" type="search" placeholder="Search..." autofocus />
@@ -32,7 +32,7 @@ function App(){
             <div className="uk-navbar-item">
               <div><a className="uk-button uk-button-primary" href="sign-up.html">Sign Up</a></div>
             </div>          
-            <a className="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
+            <a className="uk-navbar-toggle uk-hidden@m" href="/offcanvas" data-uk-toggle><span
               data-uk-navbar-toggle-icon></span></a>
           </div>
         </div>
@@ -68,55 +68,55 @@ function App(){
             <h2>Recipes</h2>
               <ul className="uk-nav-default uk-nav-parent-icon uk-nav-filter uk-margin-medium-top" data-uk-nav >
                 <li className="uk-parent uk-open">
-                  <a href="#">Dish Type</a>
+                  <a href="/">Dish Type</a>
                   <ul className="uk-nav-sub">
                     <li><a href="/">Appetizers & Snacks</a></li>
-                    <li><a href="#">Bread Recipes</a></li>
-                    <li><a href="#">Cake Recipes</a></li>
-                    <li><a href="#">Candy and Fudge</a></li>
-                    <li><a href="#">Casserole Recipes</a></li>
-                    <li><a href="#">Christmas Cookies</a></li>
-                    <li><a href="#">Cocktail Recipes</a></li>
-                    <li><a href="#">Main Dishes</a></li>
-                    <li><a href="#">Pasta Recipes</a></li>
-                    <li><a href="#">Pie Recipes</a></li>
-                    <li><a href="#">Sandwiches</a></li>
+                    <li><a href="/">Bread Recipes</a></li>
+                    <li><a href="/">Cake Recipes</a></li>
+                    <li><a href="/">Candy and Fudge</a></li>
+                    <li><a href="/">Casserole Recipes</a></li>
+                    <li><a href="/">Christmas Cookies</a></li>
+                    <li><a href="/">Cocktail Recipes</a></li>
+                    <li><a href="/">Main Dishes</a></li>
+                    <li><a href="/">Pasta Recipes</a></li>
+                    <li><a href="/">Pie Recipes</a></li>
+                    <li><a href="/">Sandwiches</a></li>
                   </ul>
                 </li>
                 <li className="uk-parent">
-                  <a href="#">Meal Type</a>
+                  <a href="/">Meal Type</a>
                   <ul className="uk-nav-sub">
-                    <li><a href="#">Breakfast and Brunch</a></li>
-                    <li><a href="#">Desserts</a></li>
-                    <li><a href="#">Dinners</a></li>
-                    <li><a href="#">Lunch</a></li>
+                    <li><a href="/">Breakfast and Brunch</a></li>
+                    <li><a href="/">Desserts</a></li>
+                    <li><a href="/">Dinners</a></li>
+                    <li><a href="/">Lunch</a></li>
                   </ul>
                 </li>
                 <li className="uk-parent">
-                  <a href="#">Diet and Health</a>
+                  <a href="/">Diet and Health</a>
                   <ul className="uk-nav-sub">
-                    <li><a href="#">Diabetic</a></li>
-                    <li><a href="#">Gluten Free</a></li>
-                    <li><a href="#">High Fiber Recipes</a></li>
-                    <li><a href="#">Low Calorie</a></li>
+                    <li><a href="/">Diabetic</a></li>
+                    <li><a href="/">Gluten Free</a></li>
+                    <li><a href="/">High Fiber Recipes</a></li>
+                    <li><a href="/">Low Calorie</a></li>
                   </ul>
                 </li>
                 <li className="uk-parent">
-                  <a href="#">World Cuisine</a>
+                  <a href="/">World Cuisine</a>
                   <ul className="uk-nav-sub">
-                    <li><a href="#">Chinese</a></li>
-                    <li><a href="#">Indian</a></li>
-                    <li><a href="#">Italian</a></li>
-                    <li><a href="#">Mexican</a></li>
+                    <li><a href="/">Chinese</a></li>
+                    <li><a href="/">Indian</a></li>
+                    <li><a href="/">Italian</a></li>
+                    <li><a href="/">Mexican</a></li>
                   </ul>
                 </li>
                 <li className="uk-parent">
-                  <a href="#">Seasonal</a>
+                  <a href="/">Seasonal</a>
                   <ul className="uk-nav-sub">
-                    <li><a href="#">Baby Shower</a></li>
-                    <li><a href="#">Birthday</a></li>
-                    <li><a href="#">Christmas</a></li>
-                    <li><a href="#">Halloween</a></li>
+                    <li><a href="/">Baby Shower</a></li>
+                    <li><a href="/">Birthday</a></li>
+                    <li><a href="/">Christmas</a></li>
+                    <li><a href="/">Halloween</a></li>
                   </ul>
                 </li>
               </ul>
@@ -146,7 +146,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/-YHSwy6uqvk/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/jUPOXXRNdcA/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -196,7 +196,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/nTZOILVZuOg/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -221,7 +221,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/Cf_Df-Zl8iw/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -246,7 +246,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/aGjP08-HbYY/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -271,7 +271,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/SxTlB4fde9Q/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -296,7 +296,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/MNtag_eXMKw/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ function App(){
                     <img className="uk-border-rounded-medium" src="https://source.unsplash.com/Yr4n8O_3UPc/300x160" alt="Course Title" />
                     <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                     <div className="uk-position-xsmall uk-position-top-right">
-                      <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                      <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                         data-uk-icon="heart"></a>
                     </div>
                   </div>
@@ -347,7 +347,7 @@ function App(){
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/jivmv9hE6bM/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                                   data-uk-icon="heart"></a>
                               </div>
                             </div>
@@ -372,7 +372,7 @@ function App(){
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/tzl1UCXg5Es/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                                   data-uk-icon="heart"></a>
                               </div>
                             </div>
@@ -397,7 +397,7 @@ function App(){
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/6G98hiCJETA/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                                   data-uk-icon="heart"></a>
                               </div>
                             </div>
@@ -422,7 +422,7 @@ function App(){
                               <img className="uk-border-rounded-medium" src="https://source.unsplash.com/_0JpjeqtSyg/300x160" alt="Course Title" />
                               <div className="uk-position-cover uk-card-overlay uk-border-rounded-medium"></div>
                               <div className="uk-position-xsmall uk-position-top-right">
-                                <a href="#" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
+                                <a href="/" className="uk-icon-button uk-like uk-position-z-index uk-position-relative"
                                   data-uk-icon="heart"></a>
                               </div>
                             </div>
@@ -443,12 +443,12 @@ function App(){
             </div>
             <div className="uk-margin-large-top uk-text-small">
               <ul className="uk-pagination uk-flex-center uk-text-500 uk-margin-remove" data-uk-margin>
-                <li><a href="#"><span data-uk-pagination-previous></span></a></li>
-                <li><a href="#">1</a></li>
+                <li><a href="/"><span data-uk-pagination-previous></span></a></li>
+                <li><a href="/">1</a></li>
                 <li className="uk-active"><span>2</span></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#"><span data-uk-pagination-next></span></a></li>
+                <li><a href="/">3</a></li>
+                <li><a href="/">4</a></li>
+                <li><a href="/"><span data-uk-pagination-next></span></a></li>
               </ul>
             </div>
           </div>
@@ -548,18 +548,18 @@ function App(){
       <div className="uk-container uk-text-secondary uk-text-500">
         <div className="uk-child-width-1-2@s" data-uk-grid>
           <div>
-            <a href="#" className="uk-logo">Edaza</a>
+            <a href="/" className="uk-logo">Edaza</a>
           </div>
           <div className="uk-flex uk-flex-middle uk-flex-right@s">
             <div data-uk-grid className="uk-child-width-auto uk-grid-small">
               <div>
-                <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: 0.8" className="uk-icon-button facebook" target="_blank"></a>
+                <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: 0.8" className="uk-icon-button facebook" target="_blank"  rel="noreferrer"></a>
               </div>
               <div>
-                <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: 0.8" className="uk-icon-button instagram" target="_blank"></a>
+                <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: 0.8" className="uk-icon-button instagram" target="_blank"  rel="noreferrer"></a>
               </div>
               <div>
-                <a href="mailto:info@blacompany.com" data-uk-icon="icon: twitter; ratio: 0.8" className="uk-icon-button twitter" target="_blank"></a>
+                <a href="mailto:info@blacompany.com" data-uk-icon="icon: twitter; ratio: 0.8" className="uk-icon-button twitter" target="_blank"  rel="noreferrer"></a>
               </div>
             </div>
           </div>
@@ -567,35 +567,35 @@ function App(){
         <div className="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
           <div>
             <ul className="uk-list uk-text-small">
-              <li><a className="uk-link-text" href="#">Presentations</a></li>
-              <li><a className="uk-link-text" href="#">Professionals</a></li>
-              <li><a className="uk-link-text" href="#">Stores</a></li>
+              <li><a className="uk-link-text" href="/">Presentations</a></li>
+              <li><a className="uk-link-text" href="/">Professionals</a></li>
+              <li><a className="uk-link-text" href="/">Stores</a></li>
             </ul>
           </div>
           <div>
             <ul className="uk-list uk-text-small">
-              <li><a className="uk-link-text" href="#">Webinars</a></li>
-              <li><a className="uk-link-text" href="#">Workshops</a></li>
-              <li><a className="uk-link-text" href="#">Local Meetups</a></li>
+              <li><a className="uk-link-text" href="/">Webinars</a></li>
+              <li><a className="uk-link-text" href="/">Workshops</a></li>
+              <li><a className="uk-link-text" href="/">Local Meetups</a></li>
             </ul>
           </div>
           <div>
             <ul className="uk-list uk-text-small">
-              <li><a className="uk-link-text" href="#">Our Initiatives</a></li>
-              <li><a className="uk-link-text" href="#">Giving Back</a></li>
-              <li><a className="uk-link-text" href="#">Communities</a></li>
+              <li><a className="uk-link-text" href="/">Our Initiatives</a></li>
+              <li><a className="uk-link-text" href="/">Giving Back</a></li>
+              <li><a className="uk-link-text" href="/">Communities</a></li>
             </ul>
           </div>
           <div>
             <ul className="uk-list uk-text-small">
-              <li><a className="uk-link-text" href="#">Contact Form</a></li>
-              <li><a className="uk-link-text" href="#">Work With Us</a></li>
-              <li><a className="uk-link-text" href="#">Visit Us</a></li>
+              <li><a className="uk-link-text" href="/">Contact Form</a></li>
+              <li><a className="uk-link-text" href="/">Work With Us</a></li>
+              <li><a className="uk-link-text" href="/">Visit Us</a></li>
             </ul>
           </div>
         </div>
         <div className="uk-margin-medium-top uk-text-small uk-text-muted">				
-          <div>Made by <a className="uk-link-muted" href="https://unbound.studio/" target="_blank">Unbound Studio</a> in Guatemala City.</div>
+          <div>Made by <a className="uk-link-muted" href="https://unbound.studio/" target="_blank"  rel="noreferrer">Unbound Studio</a> in Guatemala City.</div>
         </div>
       </div>
     </footer>
@@ -618,16 +618,16 @@ function App(){
         <div className="uk-margin-medium-top uk-text-center">
           <div data-uk-grid className="uk-child-width-auto uk-grid-small uk-flex-center">
             <div>
-              <a href="https://twitter.com/" data-uk-icon="icon: twitter" className="uk-icon-link" target="_blank"></a>
+              <a href="https://twitter.com/" data-uk-icon="icon: twitter" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
             </div>
             <div>
-              <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" className="uk-icon-link" target="_blank"></a>
+              <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
             </div>
             <div>
-              <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" className="uk-icon-link" target="_blank"></a>
+              <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
             </div>
             <div>
-              <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" className="uk-icon-link" target="_blank"></a>
+              <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" className="uk-icon-link" target="_blank"  rel="noreferrer"></a>
             </div>
           </div>
         </div>
